@@ -1,0 +1,155 @@
+baseURL: /
+languageCode: en-gb
+title: Eskibles Inc.
+theme: freshstart
+
+params:
+  author: bearlyAdmin
+  description: landing page for eskibles.us
+  favicon: /favicon.ico
+
+
+  searchEngines:
+    - name: Ecosia
+      activated: true
+      icon: fas fa-tree
+      url: https://www.ecosia.org/search?q=%s
+    - name: StartPage
+      activated: true
+      icon: fas fa-search
+      url: https://www.startpage.com/do/dsearch?query=%s%20
+
+
+  nav:
+    - name: eMail
+      icon: fas fa-mail-bulk white
+      url: https://mail.eskibles.us
+
+    - name: Twitter
+      icon: fab fa-twitter aqua
+      url: https://twitter.com
+    
+    - name: Facebook
+      icon: fab fa-facebook blue
+      url: https://facebook.com
+
+    - name: Pinterest
+      icon: fab fa-pinterest red
+      url: https:www.pinterest.com
+    - name: Youtube
+      icon: fab fa-youtube red
+      url: https://www.youtube.com
+
+  bookmarks:
+    - group: bubbles
+      icon: fab fa-empire
+      items:
+        - name: bearSound
+          url: https://bearsoundstudio.com
+          icon: fas fa-broadcast-tower black
+        - name: bearlyMatt
+          icon: fas fa-pen-fancy black
+          url: http://www.matthewharazim.co.uk
+        - name: github
+          icon: fab fa-github black
+          url: https://github.com
+        - name: foundry
+          icon: fas fa-dice-d20 red
+          url: http://foundry.matthewharazim.co.uk
+
+    - group: eskibles 
+      icon: fas fa-icons
+      items:
+       - name: nextcloud
+         url: https://cloud.eskibles.us/
+         icon: fas fa-cloud
+
+      # - name: puppet
+      #   url: https://puppet.com/docs/puppet/latest/
+
+      # - name: terraform
+      #   url: https://www.terraform.io/docs/
+      
+    - group: eskimo
+      icon: fas fa-horse
+      items:
+       - name: Reading List
+         url: https://eu01.alma.exlibrisgroup.com/leganto/readinglist/lists
+         icon: fas fa-book-open
+       - name: LEARN
+         url: https://www.learn.ed.ac.uk/webapps/portal/execute/tabs/tabAction?tab_tab_group_id=>
+         icon: fas fa-chalkboard-teacher
+       - name: Primo
+         url: https://discovered.ed.ac.uk/primo-explore/search?vid=44UOE_VU2
+         icon: fas fa-atlas
+       - name: Pinterest
+         url: https://www.pinterest.co.uk/
+         icon: fab fa-pinterest
+       - name: ASDA
+         url: https://www.asda.com/
+         icon: fas fa-shopping-basket
+       - name: Amazon
+         url: https://smile.amazon.co.uk/
+         icon: fab fa-amazon
+       - name: Unidays
+         url: https://www.myunidays.com/GB/en-GB
+         icon: fas fa-piggy-bank
+       - name: myEd
+         url: https://www.myed.ed.ac.uk/myed-progressive/
+         icon: fas fa-university
+       - name: Youtube
+         url: https://www.youtube.com
+         icon: fab fa-youtube
+
+
+
+
+#\# this is toml for basecode theme, remember to change file suffix to .toml if wanting to use
+#baseURL = "/"
+#languageCode = "en-gb"
+#title = "Eskibles Inc."
+#theme = "freshstart"
+## googleAnalytics = "UA-123-45"
+#copyright = "eskibles.us"
+#enableRobotsTXT = true
+#pygmentsCodeFences = true
+#canonifyurls = true
+#paginate = 5
+
+#[sitemap]
+#    changefreq = "weekly"
+#    priority = 0.5
+
+#[permalinks]
+#    posts = "/:year/:month/:slug/"
+#    post = "/:year/:month/:slug/"
+#    pages = "/:slug/"
+#    page = "/:slug/"
+
+#[Author]  
+#  name = "bearlyAdmin"
+
+#[params]
+#  description = "Start page for Eskibles"
+#  images = ["EskiblesBackground.jpg"]
+#  startPageColumns = true
+#  welcomeText = "fall down the rabbit-hole..."
+
+#[[params.searchEngines]]
+ # name = "Google"
+ # activated = true
+ # url = "https://www.google.com/search"
+
+#[[params.searchEngines]]
+ # name = "DuckDuckGo"
+ # activated = true
+ # url = "https://duckduckgo.com/"
+
+#[[params.searchEngines]]
+#  name = "Bing"
+#  activated = true
+#  url = "https://www.bing.com/search"
+#[[params.searchEngines]]
+#   name = "StartPage"
+#   activated = true
+#   url = "https://www.startpage.com/do/dsearch?query=%s%20"

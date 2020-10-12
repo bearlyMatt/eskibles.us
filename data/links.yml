@@ -1,0 +1,42 @@
+- group: Bubbles
+  items:
+    - title: reddit
+      url: https://www.reddit.com
+      icon: fab fa-reddit
+    - title: Facebook
+      url: https://www.facebook.com
+      icon: fab fa-facebook
+- group: Eskibles
+  items:
+    - title: nextcloud
+      url: https://cloud.eskibles.us
+      icon: fa fa-cloud
+- group: Eskimo
+  items:
+    - title: Reading List
+      url: https://eu01.alma.exlibrisgroup.com/leganto/readinglist/lists
+      icon: fas fa-book-open
+    - title: LEARN
+      url: https://www.learn.ed.ac.uk/webapps/portal/execute/tabs/tabAction?tab_tab_group_id=_171_1
+      icon: fas fa-chalkboard-teacher
+    - title: Primo
+      url: https://discovered.ed.ac.uk/primo-explore/search?vid=44UOE_VU2
+      icon: fas fa-atlas
+    - title: Pinterest
+      url: https://www.pinterest.co.uk/
+      icon: fab fa-pinterest
+    - title: ASDA
+      url: https://www.asda.com/
+      icon: fas fa-shopping-basket
+    - title: Amazon
+      url: https://smile.amazon.co.uk/
+      icon: fab fa-amazon
+    - title: Unidays
+      url: https://www.myunidays.com/GB/en-GB
+      icon: fas fa-piggy-bank
+    - title: myEd
+      url: https://www.myed.ed.ac.uk/myed-progressive/
+      icon: fas fa-university
+    - title: Youtube
+      url: https://www.youtube.com
+      icon: fab fa-youtube
